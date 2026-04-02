@@ -80,10 +80,7 @@
 /* Tablet */
 @media (min-width: 768px) {
   .inner {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 80px 40px 70px;
+    padding: 80px max(40px, calc((100% - 1200px) / 2 + 40px)) 70px;
   }
 
   .title {
@@ -121,7 +118,7 @@
 /* Desktop */
 @media (min-width: 1024px) {
   .inner {
-    padding: 90px 60px 80px;
+    padding: 90px max(60px, calc((100% - 1200px) / 2 + 60px)) 80px;
   }
 
   .statsContainer {
