@@ -15,7 +15,7 @@ body {
   font-family: 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 400;
   color: var(--color-text-primary);
-  background: var(--color-bg-black);
+  background: var(--color-bg-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -29,7 +29,6 @@ a {
 button {
   border: none;
   cursor: pointer;
-  font-family: inherit;
   background: none;
 }
 

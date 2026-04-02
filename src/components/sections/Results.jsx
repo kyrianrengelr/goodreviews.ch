@@ -4,7 +4,7 @@ import Button from '../ui/Button';
 import results from '../../data/results';
 import styles from './Results.module.css';
 
-const CALENDLY_URL = 'https://calendly.com/goodreviews';
+const CALENDLY_URL = 'https://calendly.com/kyrian-goodreviews/appel';
 
 function Results() {
   const { t } = useTranslation();

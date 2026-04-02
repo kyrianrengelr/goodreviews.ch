@@ -5,7 +5,7 @@ import Button from '../ui/Button';
 import stats from '../../data/stats';
 import styles from './About.module.css';
 
-const CALENDLY_URL = 'https://calendly.com/goodreviews';
+const CALENDLY_URL = 'https://calendly.com/kyrian-goodreviews/appel';
 
 function About() {
   const { t } = useTranslation();
@@ -16,8 +16,10 @@ function About() {
       <div className={styles.inner}>
         <div className={styles.title}>{t('about.title')}</div>
 
+        <div className={styles.aboutContent}>
         <div className={styles.photo}>Photo Engel Kyrian</div>
 
+        <div className={styles.textBlock}>
         <div className={`${styles.textContainer} ${expanded ? styles.expanded : ''}`}>
           <div className={styles.text}>
             {t('about.text1')}
@@ -30,7 +32,7 @@ function About() {
             <br /><br />
             {t('about.text5')}
             <br /><br />
-            {t('about.signature')}
+            <span className={styles.signature}>{t('about.signature')}</span>
           </div>
           {!expanded && <div className={styles.fadeOut}></div>}
         </div>
@@ -38,6 +40,8 @@ function About() {
         <button className={styles.readMore} onClick={() => setExpanded(!expanded)}>
           {expanded ? t('about.readLess') : t('about.readMore')}
         </button>
+        </div>
+        </div>
 
         <div className={styles.statsRow}>
           {stats.map((stat) => (

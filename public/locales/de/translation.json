@@ -1,12 +1,15 @@
 {
   "nav": {
+    "home": "Startseite",
     "logo": "good.",
     "logoSuffix": "reviews",
     "problem": "Das Problem?",
     "solution": "Die Lösung?",
     "results": "Ergebnisse",
     "about": "Über uns",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "login": "Login",
+    "bookCall": "Termin vereinbaren"
   },
   "hero": {
     "line1": "Ein unzufriedener",
@@ -28,7 +31,8 @@
     "title": "Die Lösung?",
     "step1Title": "Geben Sie Ihren zufriedenen Kunden eine Stimme",
     "step1Text1": "Wir begleiten Sie, um DIE Methode zu finden, die zu Ihren Bedürfnissen passt.",
-    "step1Text2": "Das Ziel: Die Sammlung positiver Bewertungen automatisieren, ohne Ihre Gewohnheiten zu stören.",
+    "step1Text2Prefix": "Das Ziel: ",
+    "step1Text2Bold": "Die Sammlung positiver Bewertungen automatisieren, ohne Ihre Gewohnheiten zu stören.",
     "step2Title1": "Raten Sie nicht mehr.",
     "step2Title2": "Messen, vergleichen, fortschreiten.",
     "measureTitle": "Messen",
@@ -66,8 +70,25 @@
     "stat3Label": "gesammelte Bewertungen",
     "cta": "Termin vereinbaren"
   },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefon",
+    "message": "Nachricht / Angaben",
+    "consent": "Ich stimme der Übermittlung und Speicherung der unten stehenden Daten im Rahmen der Bearbeitung meiner Anfrage zu",
+    "send": "Senden",
+    "sending": "Wird gesendet...",
+    "success": "Ihre Nachricht wurde erfolgreich gesendet!",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Ungültige E-Mail-Adresse",
+    "coordTitle": "Unsere Kontaktdaten",
+    "coordEmail": "kyrian@goodreviews.ch"
+  },
   "footer": {
-    "copyright": "© 2026",
+    "copyright": "© 2024",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "googleApi": "Google API Disclosure"

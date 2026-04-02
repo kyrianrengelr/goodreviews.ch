@@ -1,5 +1,6 @@
 .wrapper {
   background: var(--color-bg-white);
+  margin-top: -1px;
 }
 
 .inner {
@@ -19,33 +20,49 @@
 
 .logos {
   display: flex;
-  gap: 10px;
+  gap: 16px;
   justify-content: center;
-  opacity: 0.4;
-  filter: grayscale(100%);
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .logoItem {
-  height: 30px;
-  padding: 0 10px;
-  background: var(--color-bg-white);
-  border-radius: var(--radius-logo);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 8px;
-  color: #555;
-  font-weight: 800;
+  height: 50px;
+  object-fit: contain;
 }
 
+/* Tablet */
 @media (min-width: 768px) {
   .inner {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 44px 40px 40px;
+  }
+
+  .title {
+    font-size: 24px;
   }
 
   .logos {
-    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .logoItem {
+    height: 55px;
+    flex: 1;
+    max-width: 200px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .inner {
+    padding: 50px 60px 44px;
+  }
+
+  .logoItem {
+    height: 60px;
+    max-width: 250px;
   }
 }

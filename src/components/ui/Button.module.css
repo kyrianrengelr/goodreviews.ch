@@ -1,6 +1,7 @@
 .button {
   display: block;
   width: 100%;
+  font-family: 'League Spartan', sans-serif;
   background: var(--color-primary);
   color: var(--color-text-white);
   text-align: center;
@@ -19,4 +20,12 @@
 
 .button:active {
   transform: scale(0.98);
+}
+
+@media (min-width: 768px) {
+  .button {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

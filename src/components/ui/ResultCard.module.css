@@ -28,3 +28,35 @@
   color: var(--color-text-success);
   font-weight: 800;
 }
+
+@media (min-width: 768px) {
+  .card {
+    padding: 18px 24px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .type {
+    font-size: 12px;
+  }
+
+  .value {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    padding: 20px 28px;
+  }
+
+  .name {
+    font-size: 17px;
+  }
+
+  .value {
+    font-size: 15px;
+  }
+}

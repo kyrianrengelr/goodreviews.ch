@@ -5,6 +5,7 @@ function Hero() {
   const { t } = useTranslation();
 
   return (
+    <div className={styles.wrapper}>
     <section className={styles.hero}>
       <div className={styles.text}>
         {t('hero.line1')}{' '}
@@ -14,6 +15,7 @@ function Hero() {
         {t('hero.line3')}
       </div>
     </section>
+    </div>
   );
 }
 

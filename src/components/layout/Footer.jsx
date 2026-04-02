@@ -9,7 +9,7 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.top}>
         <div className={styles.logo}>
-          good.<span className={styles.logoSuffix}>reviews</span>
+          good.
         </div>
         <div className={styles.copyright}>{t('footer.copyright')}</div>
       </div>

@@ -34,3 +34,6 @@ Chaque erreur rencontrée doit être documentée ici pour ne pas la répéter.
 
 ### Erreurs documentées
 (Aucune pour le moment — à remplir au fur et à mesure du développement)
+
+## TODO — Avant de finaliser le projet
+- [ ] **Pages légales** : Kyrian fournira lui-même les textes pour Privacy Policy, Terms of Use et Google API Disclosure. Ne pas inventer de contenu — attendre ses textes et les intégrer en fin de projet.

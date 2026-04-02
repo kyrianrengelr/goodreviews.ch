@@ -1,12 +1,15 @@
 {
   "nav": {
+    "home": "Accueil",
     "logo": "good.",
     "logoSuffix": "reviews",
     "problem": "Le problème ?",
     "solution": "La solution ?",
     "results": "Résultats",
     "about": "À propos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "login": "Login",
+    "bookCall": "Prendre rendez-vous"
   },
   "hero": {
     "line1": "Un client",
@@ -28,7 +31,8 @@
     "title": "La solution ?",
     "step1Title": "Donner la parole à vos clients satisfaits",
     "step1Text1": "On vous accompagne afin de trouver LA méthode adaptée à vos besoins.",
-    "step1Text2": "L'objectif : Automatiser la récolte d'avis positifs, sans bouleverser vos habitudes.",
+    "step1Text2Prefix": "L'objectif : ",
+    "step1Text2Bold": "Automatiser la récolte d'avis positifs, sans bouleverser vos habitudes.",
     "step2Title1": "Ne devinez plus.",
     "step2Title2": "Mesurez, comparez, progressez.",
     "measureTitle": "Mesurez",
@@ -36,7 +40,7 @@
     "measureText2": "Durant quel mois avez-vous récolté le plus d'avis ? ...",
     "measureText3": "L'app Good Reviews répond à toutes vos questions !",
     "compareTitle": "Comparez",
-    "compareText": "La performance Google de chacun de vos établissements et identifiez ceux qui ont le plus besoin de votre attention.",
+    "compareText": "Visualisez la performance Google de chacun de vos établissements et identifiez ceux qui ont le plus besoin de votre attention.",
     "progressTitle": "Progressez",
     "progressText1": "Avec les bonnes données, vous prenez les bonnes décisions.",
     "progressText2": "Google vous dit où vous êtes, notre app vous dit où vous allez."
@@ -64,10 +68,27 @@
     "stat2Label": "en moyenne sur la note Google",
     "stat3Number": "+38K",
     "stat3Label": "avis récoltés",
-    "cta": "Prenez rendez-vous"
+    "cta": "Prendre rendez-vous"
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "firstName": "Votre prénom",
+    "lastName": "Votre nom",
+    "email": "Adresse e-mail de contact",
+    "phone": "Téléphone",
+    "message": "Message / indications de votre part",
+    "consent": "J'accepte la transmission et le stockage des données ci-dessous dans le cadre du traitement de ma demande",
+    "send": "Envoyer",
+    "sending": "Envoi en cours...",
+    "success": "Votre message a été envoyé avec succès !",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "required": "Ce champ est requis",
+    "invalidEmail": "Adresse e-mail invalide",
+    "coordTitle": "Nos coordonnées",
+    "coordEmail": "kyrian@goodreviews.ch"
   },
   "footer": {
-    "copyright": "© 2026",
+    "copyright": "© 2024",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "googleApi": "Google API Disclosure"

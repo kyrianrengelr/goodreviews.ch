@@ -1,8 +1,16 @@
 .navbar {
   position: sticky;
-  top: var(--navbar-top-offset);
+  top: 0;
   z-index: 100;
-  margin: 8px var(--navbar-side-margin) 0;
+  padding: 8px var(--navbar-side-margin) 0;
+  background: var(--color-primary);
+  border-radius: 0 0 22px 22px;
+}
+
+.navbar.menuOpen {
+  padding: 8px 0 0;
+  border-radius: 0;
+  margin: 0;
 }
 
 .bar {
@@ -12,17 +20,24 @@
   padding: var(--navbar-padding-y) var(--navbar-padding-x);
   background: var(--color-primary);
   border-radius: var(--radius-navbar);
+  position: relative;
+  z-index: 101;
 }
 
 .logo {
-  font-weight: 800;
-  font-size: var(--font-size-nav-logo);
-  color: var(--color-text-white);
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 48px;
 }
 
-.logoSuffix {
-  font-size: 14px;
-  opacity: 0.7;
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .hamburger {
@@ -33,38 +48,58 @@
   cursor: pointer;
 }
 
-.desktopNav {
+/* Login et Book — cachés sur petit mobile, visibles dès 480px */
+.loginBtn {
   display: none;
-  align-items: center;
-  gap: 24px;
-}
-
-.navLink {
-  background: none;
-  border: none;
-  color: var(--color-text-white);
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
   opacity: 0.85;
   transition: opacity 0.2s;
 }
 
-.navLink:hover {
+.loginBtn:hover {
   opacity: 1;
 }
 
+.bookBtn {
+  display: none;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-primary);
+  background: #fff;
+  padding: 6px 12px;
+  border-radius: var(--radius-button);
+  text-decoration: none;
+  transition: transform 0.2s;
+  white-space: nowrap;
+}
+
+.bookBtn:hover {
+  transform: scale(1.02);
+}
+
+/* Menu hamburger dropdown */
 .mobileMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
   background: var(--color-primary);
-  border-radius: 0 0 var(--radius-navbar) var(--radius-navbar);
-  padding: 8px var(--navbar-padding-x) 20px;
-  margin-top: -8px;
+  padding: 16px var(--navbar-padding-x) 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0 0 36px 36px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  z-index: 99;
 }
 
 .mobileLink {
+  font-family: 'League Spartan', sans-serif;
   background: none;
   border: none;
   color: var(--color-text-white);
@@ -75,21 +110,111 @@
   padding: 8px 0;
 }
 
-.mobileLangSwitcher {
-  padding-top: 8px;
+.mobileLangTop {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -8px;
+}
+
+/* Boutons dans le menu hamburger — visibles uniquement sous 480px */
+.mobileActions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.mobileLoginBtn {
+  font-family: 'League Spartan', sans-serif;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: var(--radius-button);
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.mobileLoginBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.mobileBookBtn {
+  font-family: 'League Spartan', sans-serif;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: var(--radius-button);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-primary);
+  background: #fff;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.mobileBookBtn:hover {
+  transform: scale(1.02);
+}
+
+/* >= 480px : on affiche Login et CTA dans la barre, on cache ceux du menu */
+@media (min-width: 480px) {
+  .loginBtn {
+    display: block;
+    font-size: 13px;
+  }
+
+  .bookBtn {
+    display: block;
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .rightSection {
+    gap: 10px;
+  }
+
+  .mobileActions {
+    display: none;
+  }
+}
+
+/* >= 768px (tablet) : on agrandit */
 @media (min-width: 768px) {
-  .hamburger {
-    display: none;
+  .logo {
+    font-size: 40px;
   }
 
-  .desktopNav {
-    display: flex;
+  .loginBtn {
+    font-size: 14px;
   }
 
-  .mobileMenu {
-    display: none;
+  .bookBtn {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+
+  .rightSection {
+    gap: 16px;
+  }
+
+  .mobileLink {
+    font-size: 18px;
+  }
+}
+
+/* >= 1024px (desktop) : encore plus d'espace */
+@media (min-width: 1024px) {
+  .rightSection {
+    gap: 20px;
+  }
+
+  .bookBtn {
+    font-size: 14px;
+    padding: 10px 24px;
   }
 }

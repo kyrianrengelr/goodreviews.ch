@@ -1,0 +1,243 @@
+.wrapper {
+  background: var(--color-bg-white);
+  margin-top: -1px;
+}
+
+.bottomBg {
+  background: linear-gradient(to bottom, var(--color-bg-white) 0px, var(--color-bg-white) 50px, var(--color-primary) 50px);
+}
+
+.inner {
+  background: var(--color-bg-grey);
+  padding: var(--padding-section-y) var(--padding-section-x) 40px;
+  border-radius: 0 0 var(--radius-section) var(--radius-section);
+}
+
+.title {
+  color: var(--color-primary);
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 800;
+  font-size: var(--font-size-section-title);
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.coordBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.coordTitle {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+
+.coordEmail {
+  font-size: var(--font-size-body);
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.coordEmail:hover {
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 14px 16px;
+  background: var(--color-bg-white);
+  border: 1px solid transparent;
+  border-radius: var(--radius-stat-card);
+  font-family: 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
+  font-size: var(--font-size-body);
+  color: var(--color-text-primary);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--color-text-muted);
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: var(--color-primary);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.consentRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.checkbox {
+  margin-top: 3px;
+  accent-color: var(--color-primary);
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.consentLabel {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.submitRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submitBtn {
+  font-family: 'League Spartan', sans-serif;
+  background: var(--color-primary);
+  color: var(--color-text-white);
+  padding: 14px 32px;
+  border-radius: var(--radius-button);
+  font-size: var(--font-size-cta);
+  font-weight: 800;
+  box-shadow: var(--shadow-cta);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.submitBtn:hover {
+  transform: scale(1.02);
+}
+
+.submitBtn:active {
+  transform: scale(0.98);
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  font-size: 12px;
+  color: #e53e3e;
+  margin-top: 4px;
+}
+
+.successMsg {
+  font-size: var(--font-size-body);
+  color: var(--color-text-success);
+  font-weight: 600;
+  text-align: center;
+  padding: 12px;
+  background: #f0fdf4;
+  border-radius: var(--radius-stat-card);
+}
+
+.errorMsg {
+  font-size: var(--font-size-body);
+  color: #e53e3e;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px;
+  background: #fef2f2;
+  border-radius: var(--radius-stat-card);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .inner {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 40px 50px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .content {
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+
+  .coordBlock {
+    min-width: 250px;
+  }
+
+  .coordTitle {
+    font-size: 16px;
+  }
+
+  .form {
+    flex: 1;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .input,
+  .textarea {
+    font-size: 15px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .inner {
+    padding: 70px 60px 60px;
+  }
+
+  .content {
+    gap: 60px;
+  }
+
+  .coordBlock {
+    min-width: 280px;
+  }
+
+  .input,
+  .textarea {
+    font-size: 16px;
+    padding: 16px 18px;
+  }
+
+  .consentLabel {
+    font-size: 13px;
+  }
+}

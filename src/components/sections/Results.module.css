@@ -1,5 +1,6 @@
 .wrapper {
   background: var(--color-bg-grey);
+  margin-top: -1px;
 }
 
 .inner {
@@ -29,10 +30,39 @@
   margin-top: 28px;
 }
 
+/* Tablet */
 @media (min-width: 768px) {
   .inner {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 60px 40px 70px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .list {
+    gap: 12px;
+    max-width: 700px;
+  }
+
+  .ctaWrapper {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .inner {
+    padding: 70px 60px 80px;
+  }
+
+  .list {
+    gap: 14px;
   }
 }

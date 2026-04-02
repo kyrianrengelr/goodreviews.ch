@@ -18,7 +18,7 @@ function Solution() {
             <div className={styles.stepText}>
               {t('solution.step1Text1')}
               <br /><br />
-              {t('solution.step1Text2')}
+              {t('solution.step1Text2Prefix')}<span className={styles.bold}>{t('solution.step1Text2Bold')}</span>
             </div>
           </div>
 

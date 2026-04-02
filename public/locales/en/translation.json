@@ -1,12 +1,15 @@
 {
   "nav": {
+    "home": "Home",
     "logo": "good.",
     "logoSuffix": "reviews",
     "problem": "The problem?",
     "solution": "The solution?",
     "results": "Results",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "login": "Login",
+    "bookCall": "Book a call"
   },
   "hero": {
     "line1": "An unhappy",
@@ -28,7 +31,8 @@
     "title": "The solution?",
     "step1Title": "Give your satisfied customers a voice",
     "step1Text1": "We help you find THE method adapted to your needs.",
-    "step1Text2": "The goal: Automate the collection of positive reviews, without disrupting your habits.",
+    "step1Text2Prefix": "The goal: ",
+    "step1Text2Bold": "Automate the collection of positive reviews, without disrupting your habits.",
     "step2Title1": "Stop guessing.",
     "step2Title2": "Measure, compare, progress.",
     "measureTitle": "Measure",
@@ -66,8 +70,25 @@
     "stat3Label": "reviews collected",
     "cta": "Book a meeting"
   },
+  "contact": {
+    "title": "Contact us",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email address",
+    "phone": "Phone",
+    "message": "Message / details",
+    "consent": "I agree to the transmission and storage of the data below for the purpose of processing my request",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully!",
+    "error": "An error occurred. Please try again.",
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "coordTitle": "Our contact details",
+    "coordEmail": "kyrian@goodreviews.ch"
+  },
   "footer": {
-    "copyright": "© 2026",
+    "copyright": "© 2024",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "googleApi": "Google API Disclosure"
