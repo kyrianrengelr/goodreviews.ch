@@ -1,0 +1,69 @@
+:root {
+  /* Couleurs principales */
+  --color-primary: #7469cd;
+  --color-black: #0A0A0A;
+  --color-white: #FFFFFF;
+
+  /* Fonds */
+  --color-bg-white: #FFFFFF;
+  --color-bg-grey: #E5E7EB;
+  --color-bg-light-grey: #f6f6f6;
+  --color-bg-black: #0A0A0A;
+  --color-bg-purple-light: #f6f3ff;
+
+  /* Texte */
+  --color-text-primary: #0A0A0A;
+  --color-text-secondary: #333333;
+  --color-text-muted: #888888;
+  --color-text-white: #FFFFFF;
+  --color-text-success: #1D9E75;
+
+  /* Bordures et accents */
+  --color-border-light: #ccd5e2;
+  --color-accent-blue: #ccd5e2;
+
+  /* Tailles de texte — Mobile */
+  --font-size-hero-accent: 56px;
+  --font-size-hero-text: 22px;
+  --font-size-stat-number: 52px;
+  --font-size-stat-sub: 22px;
+  --font-size-section-title: 18px;
+  --font-size-block-title: 17px;
+  --font-size-sub-title: 14px;
+  --font-size-body: 14px;
+  --font-size-stat-card-number: 22px;
+  --font-size-stat-card-label: 9px;
+  --font-size-result-name: 14px;
+  --font-size-result-value: 13px;
+  --font-size-cta: 16px;
+  --font-size-nav-logo: 18px;
+  --font-size-footer-small: 10px;
+  --font-size-footer-copyright: 11px;
+
+  /* Arrondis */
+  --radius-section: 48px;
+  --radius-card: 16px;
+  --radius-button: 12px;
+  --radius-navbar: 16px;
+  --radius-photo: 24px;
+  --radius-stat-card: 12px;
+  --radius-result-card: 12px;
+  --radius-logo: 4px;
+  --radius-timeline-dot: 50%;
+
+  /* Padding sections */
+  --padding-section-x: 24px;
+  --padding-section-y: 50px;
+
+  /* Navbar */
+  --navbar-padding-x: 20px;
+  --navbar-padding-y: 14px;
+  --navbar-top-offset: 8px;
+  --navbar-side-margin: 12px;
+
+  /* Ombres */
+  --shadow-card: 0 4px 15px rgba(0, 0, 0, 0.05);
+  --shadow-cta: 0 10px 20px rgba(116, 105, 205, 0.3);
+  --shadow-photo: 0 10px 30px rgba(0, 0, 0, 0.1);
+  --shadow-hero-text: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}

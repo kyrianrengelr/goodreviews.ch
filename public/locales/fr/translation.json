@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "logo": "good.",
+    "logoSuffix": "reviews",
+    "problem": "Le problème ?",
+    "solution": "La solution ?",
+    "results": "Résultats",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "line1": "Un client",
+    "highlight": "mécontent",
+    "line2": "a",
+    "accent": "2 FOIS",
+    "line3": "plus de chance de laisser un avis."
+  },
+  "problem": {
+    "title": "Le problème ?",
+    "stat1Number": "97%",
+    "stat1Text": "des personnes consultent les avis avant de se rendre dans un établissement.",
+    "stat2Number1": "1",
+    "stat2Middle": "personne sur",
+    "stat2Number2": "2",
+    "stat2Text": "se tourne vers la concurrence à cause d'avis négatifs."
+  },
+  "solution": {
+    "title": "La solution ?",
+    "step1Title": "Donner la parole à vos clients satisfaits",
+    "step1Text1": "On vous accompagne afin de trouver LA méthode adaptée à vos besoins.",
+    "step1Text2": "L'objectif : Automatiser la récolte d'avis positifs, sans bouleverser vos habitudes.",
+    "step2Title1": "Ne devinez plus.",
+    "step2Title2": "Mesurez, comparez, progressez.",
+    "measureTitle": "Mesurez",
+    "measureText1": "Combien d'avis vous faut-il pour passer de 4.2 à 4.3 ?",
+    "measureText2": "Durant quel mois avez-vous récolté le plus d'avis ? ...",
+    "measureText3": "L'app Good Reviews répond à toutes vos questions !",
+    "compareTitle": "Comparez",
+    "compareText": "La performance Google de chacun de vos établissements et identifiez ceux qui ont le plus besoin de votre attention.",
+    "progressTitle": "Progressez",
+    "progressText1": "Avec les bonnes données, vous prenez les bonnes décisions.",
+    "progressText2": "Google vous dit où vous êtes, notre app vous dit où vous allez."
+  },
+  "results": {
+    "title": "Est-ce que ça marche vraiment ?",
+    "cta": "En savoir plus"
+  },
+  "trust": {
+    "title": "Ils nous font confiance"
+  },
+  "about": {
+    "title": "À propos",
+    "text1": "L'idée derrière Good Reviews est née d'une frustration personnelle.",
+    "text2": "En 2023, lorsque ma mère a ouvert son magasin de fleurs, elle y a mis tout son coeur. Elle ne comptait pas ses heures et portait une attention particulière à chaque client. Pourtant sa note Google ne reflétait pas tous ses efforts.",
+    "text3": "Cette injustice m'a fait prendre conscience d'un problème plus profond. Avoir des clients satisfaits est une chose, le faire savoir en ligne en est une autre.",
+    "text4": "C'est pourquoi j'ai décidé de fonder Good Reviews avec une mission claire : Faire en sorte que votre note Google reflète enfin la qualité de votre travail.",
+    "text5": "Aujourd'hui, l'aventure continue avec plus de 60 établissements accompagnés à travers toute la Suisse.",
+    "signature": "— Engel Kyrian, Fondateur",
+    "readMore": "+ Lire la suite",
+    "readLess": "- Réduire",
+    "stat1Number": "+60",
+    "stat1Label": "établissements accompagnés",
+    "stat2Number": "+12.9%",
+    "stat2Label": "en moyenne sur la note Google",
+    "stat3Number": "+38K",
+    "stat3Label": "avis récoltés",
+    "cta": "Prenez rendez-vous"
+  },
+  "footer": {
+    "copyright": "© 2026",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "googleApi": "Google API Disclosure"
+  }
+}

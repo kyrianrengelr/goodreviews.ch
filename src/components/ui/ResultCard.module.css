@@ -1,0 +1,30 @@
+.card {
+  background: var(--color-bg-light-grey);
+  border-radius: var(--radius-result-card);
+  padding: 16px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: var(--font-size-result-name);
+  font-weight: 800;
+  color: var(--color-text-primary);
+}
+
+.type {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.values {
+  text-align: right;
+}
+
+.value {
+  font-size: var(--font-size-result-value);
+  color: var(--color-text-success);
+  font-weight: 800;
+}

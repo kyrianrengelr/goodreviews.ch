@@ -1,0 +1,39 @@
+@import './fonts.css';
+@import './variables.css';
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  background: var(--color-bg-black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

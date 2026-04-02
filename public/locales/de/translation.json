@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "logo": "good.",
+    "logoSuffix": "reviews",
+    "problem": "Das Problem?",
+    "solution": "Die Lösung?",
+    "results": "Ergebnisse",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "line1": "Ein unzufriedener",
+    "highlight": "Kunde",
+    "line2": "hat eine",
+    "accent": "2 MAL",
+    "line3": "höhere Chance, eine Bewertung zu hinterlassen."
+  },
+  "problem": {
+    "title": "Das Problem?",
+    "stat1Number": "97%",
+    "stat1Text": "der Personen lesen Bewertungen, bevor sie ein Geschäft besuchen.",
+    "stat2Number1": "1",
+    "stat2Middle": "Person von",
+    "stat2Number2": "2",
+    "stat2Text": "wendet sich wegen negativer Bewertungen an die Konkurrenz."
+  },
+  "solution": {
+    "title": "Die Lösung?",
+    "step1Title": "Geben Sie Ihren zufriedenen Kunden eine Stimme",
+    "step1Text1": "Wir begleiten Sie, um DIE Methode zu finden, die zu Ihren Bedürfnissen passt.",
+    "step1Text2": "Das Ziel: Die Sammlung positiver Bewertungen automatisieren, ohne Ihre Gewohnheiten zu stören.",
+    "step2Title1": "Raten Sie nicht mehr.",
+    "step2Title2": "Messen, vergleichen, fortschreiten.",
+    "measureTitle": "Messen",
+    "measureText1": "Wie viele Bewertungen brauchen Sie, um von 4.2 auf 4.3 zu kommen?",
+    "measureText2": "In welchem Monat haben Sie die meisten Bewertungen gesammelt? ...",
+    "measureText3": "Die Good Reviews App beantwortet all Ihre Fragen!",
+    "compareTitle": "Vergleichen",
+    "compareText": "Die Google-Performance jedes Ihrer Standorte und identifizieren Sie diejenigen, die am meisten Aufmerksamkeit benötigen.",
+    "progressTitle": "Fortschreiten",
+    "progressText1": "Mit den richtigen Daten treffen Sie die richtigen Entscheidungen.",
+    "progressText2": "Google sagt Ihnen, wo Sie stehen, unsere App sagt Ihnen, wohin Sie gehen."
+  },
+  "results": {
+    "title": "Funktioniert es wirklich?",
+    "cta": "Mehr erfahren"
+  },
+  "trust": {
+    "title": "Sie vertrauen uns"
+  },
+  "about": {
+    "title": "Über uns",
+    "text1": "Die Idee hinter Good Reviews entstand aus einer persönlichen Frustration.",
+    "text2": "Als meine Mutter 2023 ihren Blumenladen eröffnete, steckte sie ihr ganzes Herz hinein. Sie zählte ihre Stunden nicht und schenkte jedem Kunden besondere Aufmerksamkeit. Dennoch spiegelte ihre Google-Bewertung nicht all ihre Bemühungen wider.",
+    "text3": "Diese Ungerechtigkeit machte mir ein tieferes Problem bewusst. Zufriedene Kunden zu haben ist eine Sache, es online bekannt zu machen eine andere.",
+    "text4": "Deshalb habe ich beschlossen, Good Reviews mit einer klaren Mission zu gründen: Dafür zu sorgen, dass Ihre Google-Bewertung endlich die Qualität Ihrer Arbeit widerspiegelt.",
+    "text5": "Heute geht das Abenteuer weiter mit über 60 begleiteten Betrieben in der ganzen Schweiz.",
+    "signature": "— Engel Kyrian, Gründer",
+    "readMore": "+ Mehr lesen",
+    "readLess": "- Einklappen",
+    "stat1Number": "+60",
+    "stat1Label": "begleitete Betriebe",
+    "stat2Number": "+12.9%",
+    "stat2Label": "durchschnittliche Steigerung der Google-Bewertung",
+    "stat3Number": "+38K",
+    "stat3Label": "gesammelte Bewertungen",
+    "cta": "Termin vereinbaren"
+  },
+  "footer": {
+    "copyright": "© 2026",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "googleApi": "Google API Disclosure"
+  }
+}

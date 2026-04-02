@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "logo": "good.",
+    "logoSuffix": "reviews",
+    "problem": "The problem?",
+    "solution": "The solution?",
+    "results": "Results",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "line1": "An unhappy",
+    "highlight": "customer",
+    "line2": "is",
+    "accent": "2 TIMES",
+    "line3": "more likely to leave a review."
+  },
+  "problem": {
+    "title": "The problem?",
+    "stat1Number": "97%",
+    "stat1Text": "of people check reviews before visiting a business.",
+    "stat2Number1": "1",
+    "stat2Middle": "person out of",
+    "stat2Number2": "2",
+    "stat2Text": "turns to the competition because of negative reviews."
+  },
+  "solution": {
+    "title": "The solution?",
+    "step1Title": "Give your satisfied customers a voice",
+    "step1Text1": "We help you find THE method adapted to your needs.",
+    "step1Text2": "The goal: Automate the collection of positive reviews, without disrupting your habits.",
+    "step2Title1": "Stop guessing.",
+    "step2Title2": "Measure, compare, progress.",
+    "measureTitle": "Measure",
+    "measureText1": "How many reviews do you need to go from 4.2 to 4.3?",
+    "measureText2": "During which month did you collect the most reviews? ...",
+    "measureText3": "The Good Reviews app answers all your questions!",
+    "compareTitle": "Compare",
+    "compareText": "The Google performance of each of your locations and identify those that need the most attention.",
+    "progressTitle": "Progress",
+    "progressText1": "With the right data, you make the right decisions.",
+    "progressText2": "Google tells you where you are, our app tells you where you're going."
+  },
+  "results": {
+    "title": "Does it really work?",
+    "cta": "Learn more"
+  },
+  "trust": {
+    "title": "They trust us"
+  },
+  "about": {
+    "title": "About",
+    "text1": "The idea behind Good Reviews was born from a personal frustration.",
+    "text2": "In 2023, when my mother opened her flower shop, she put all her heart into it. She didn't count her hours and paid special attention to each customer. Yet her Google rating didn't reflect all her efforts.",
+    "text3": "This injustice made me realize a deeper problem. Having satisfied customers is one thing, making it known online is another.",
+    "text4": "That's why I decided to found Good Reviews with a clear mission: To ensure that your Google rating finally reflects the quality of your work.",
+    "text5": "Today, the adventure continues with over 60 businesses supported across Switzerland.",
+    "signature": "— Engel Kyrian, Founder",
+    "readMore": "+ Read more",
+    "readLess": "- Collapse",
+    "stat1Number": "+60",
+    "stat1Label": "businesses supported",
+    "stat2Number": "+12.9%",
+    "stat2Label": "average increase in Google rating",
+    "stat3Number": "+38K",
+    "stat3Label": "reviews collected",
+    "cta": "Book a meeting"
+  },
+  "footer": {
+    "copyright": "© 2026",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "googleApi": "Google API Disclosure"
+  }
+}

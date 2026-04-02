@@ -1,0 +1,45 @@
+.footer {
+  background: var(--color-bg-black);
+  padding: 24px 24px 16px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 14px;
+  color: #FAFAFA;
+}
+
+.logoSuffix {
+  color: var(--color-primary);
+  font-size: 11px;
+}
+
+.copyright {
+  font-size: var(--font-size-footer-copyright);
+  color: var(--color-text-muted);
+}
+
+.legal {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  border-top: 1px solid #222;
+  padding-top: 12px;
+}
+
+.legalLink {
+  font-size: var(--font-size-footer-small);
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+
+.legalLink:hover {
+  color: var(--color-text-white);
+}
