@@ -11,7 +11,7 @@ function Hero() {
         {t('hero.line1')}{' '}
         <span className={styles.highlight}>{t('hero.highlight')}</span>{' '}
         {t('hero.line2')}
-        <span className={styles.accent}>{t('hero.accent')}</span>
+        <span className={styles.accent}>{t('hero.accent')}<sup className={styles.sup}>¹</sup></span>
         {t('hero.line3')}
       </div>
     </section>

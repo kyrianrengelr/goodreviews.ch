@@ -11,8 +11,10 @@ function ResultCard({ name, type, noteIncrease, reviewsIncrease }) {
         <div className={styles.type}>{type}</div>
       </div>
       <div className={styles.values}>
-        <div className={styles.value}>{noteIncrease} note</div>
-        <div className={styles.value}>{reviewsIncrease} avis/mois</div>
+        <span className={styles.green}>{noteIncrease}</span>
+        <span className={styles.label}>Note Google</span>
+        <span className={styles.green}>{reviewsIncrease}</span>
+        <span className={styles.label}>Avis/mois</span>
       </div>
     </div>
   );

@@ -20,13 +20,23 @@
 }
 
 .values {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2px 6px;
+  align-items: baseline;
+  font-weight: 800;
+}
+
+.green {
+  color: var(--color-text-success);
+  font-size: 15px;
   text-align: right;
 }
 
-.value {
-  font-size: var(--font-size-result-value);
-  color: var(--color-text-success);
-  font-weight: 800;
+.label {
+  color: var(--color-text-primary);
+  font-size: 12px;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
@@ -42,8 +52,12 @@
     font-size: 12px;
   }
 
-  .value {
-    font-size: 14px;
+  .green {
+    font-size: 17px;
+  }
+
+  .label {
+    font-size: 13px;
   }
 }
 
@@ -56,7 +70,11 @@
     font-size: 17px;
   }
 
-  .value {
-    font-size: 15px;
+  .green {
+    font-size: 18px;
+  }
+
+  .label {
+    font-size: 14px;
   }
 }

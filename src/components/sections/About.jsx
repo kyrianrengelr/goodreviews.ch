@@ -17,7 +17,7 @@ function About() {
         <div className={styles.title}>{t('about.title')}</div>
 
         <div className={styles.aboutContent}>
-        <img src="/Photo_fondateur.JPG" alt="Kyrian Engel, fondateur de Good Reviews" className={styles.photo} />
+        <img src="/Photo_fondateur.JPG" alt="Kyrian, fondateur de Good Reviews" className={styles.photo} />
 
         <div className={styles.textBlock}>
         <div className={`${styles.textContainer} ${expanded ? styles.expanded : ''}`}>

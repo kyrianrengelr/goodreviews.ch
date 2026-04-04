@@ -40,6 +40,13 @@
   text-shadow: var(--shadow-hero-text);
 }
 
+.sup {
+  font-size: 0.5em;
+  vertical-align: super;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .hero {
