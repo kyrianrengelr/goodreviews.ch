@@ -14,10 +14,17 @@ function About() {
   return (
     <section id="about" className={styles.wrapper}>
       <div className={styles.inner}>
-        <div className={styles.title}>{t('about.title')}</div>
+        <h2 className={styles.title}>{t('about.title')}</h2>
 
         <div className={styles.aboutContent}>
-        <img src="/Photo_fondateur.JPG" alt="Kyrian, fondateur de Good Reviews" className={styles.photo} />
+        <img
+          src="/Photo_fondateur.JPG"
+          alt="Kyrian, fondateur de Good Reviews"
+          className={styles.photo}
+          loading="lazy"
+          width="380"
+          height="400"
+        />
 
         <div className={styles.textBlock}>
         <div className={`${styles.textContainer} ${expanded ? styles.expanded : ''}`}>

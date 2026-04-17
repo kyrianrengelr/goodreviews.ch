@@ -15,11 +15,18 @@ function Trust() {
   return (
     <section className={styles.wrapper}>
       <div className={styles.inner}>
-        <div className={styles.title}>{t('trust.title')}</div>
+        <h2 className={styles.title}>{t('trust.title')}</h2>
         <div className={styles.logos}>
           {logos.map((logo) => (
-            <a key={logo.alt} href={logo.url} target="_blank" rel="noopener noreferrer">
-              <img src={`${base}${logo.src}`} alt={logo.alt} className={styles.logoItem} />
+            <a key={logo.alt} href={logo.url} target="_blank" rel="noopener noreferrer" aria-label={`Visiter le site de ${logo.alt}`}>
+              <img
+                src={`${base}${logo.src}`}
+                alt={`Logo ${logo.alt} — client de Good Reviews`}
+                className={styles.logoItem}
+                loading="lazy"
+                width="250"
+                height="60"
+              />
             </a>
           ))}
         </div>

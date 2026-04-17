@@ -7,14 +7,14 @@ function Solution() {
   return (
     <section id="solution" className={styles.wrapper}>
       <div className={styles.inner}>
-        <div className={styles.title}>{t('solution.title')}</div>
+        <h2 className={styles.title}>{t('solution.title')}</h2>
 
         <div className={styles.timeline}>
           <div className={styles.timelineLine}></div>
 
           <div className={styles.timelineItem}>
             <div className={styles.timelineDot}></div>
-            <div className={styles.stepTitle}>{t('solution.step1Title')}</div>
+            <h3 className={styles.stepTitle}>{t('solution.step1Title')}</h3>
             <div className={styles.stepText}>
               {t('solution.step1Text1')}
               <br /><br />
@@ -24,10 +24,10 @@ function Solution() {
 
           <div className={styles.timelineItem}>
             <div className={styles.timelineDot}></div>
-            <div className={styles.stepTitle}>
+            <h3 className={styles.stepTitle}>
               {t('solution.step2Title1')}<br />
               {t('solution.step2Title2')}
-            </div>
+            </h3>
 
             <div className={styles.subSections}>
               <div className={styles.subSection}>
@@ -55,6 +55,8 @@ function Solution() {
             </div>
           </div>
         </div>
+
+        <p className={styles.disclaimer}>{t('solution.disclaimer')}</p>
       </div>
     </section>
   );

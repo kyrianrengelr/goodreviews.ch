@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
@@ -10,6 +11,12 @@ const ul = { fontSize: '14px', lineHeight: 1.7, color: '#333', paddingLeft: '20p
 const a = { color: '#7469cd' };
 
 function PrivacyPolicy() {
+  useEffect(() => {
+    document.title = 'Politique de confidentialité | Good Reviews';
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute('content', 'Politique de protection des données de Good Reviews. Mesures techniques et organisationnelles pour la sécurité des données personnelles.');
+  }, []);
+
   return (
     <>
       <Navbar />

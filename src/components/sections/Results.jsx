@@ -12,7 +12,7 @@ function Results() {
   return (
     <section id="results" className={styles.wrapper}>
       <div className={styles.inner}>
-        <div className={styles.title}>{t('results.title')}</div>
+        <h2 className={styles.title}>{t('results.title')}</h2>
         <div className={styles.list}>
           {results.map((result) => (
             <ResultCard

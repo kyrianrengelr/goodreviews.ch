@@ -15,6 +15,12 @@ function HomePage() {
   const location = useLocation();
 
   useEffect(() => {
+    document.title = "Good Reviews — Boostez votre note Google | Gestion d'avis pour restaurants & commerces en Suisse";
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute('content', "Good Reviews accompagne les restaurants, commerces et groupes en Suisse pour récolter plus d'avis Google positifs et améliorer leur note. +60 établissements accompagnés, +12.9% de note moyenne. Prenez rendez-vous dès aujourd'hui.");
+  }, []);
+
+  useEffect(() => {
     if (location.state?.scrollTo) {
       setTimeout(() => {
         scrollToSection(location.state.scrollTo);
@@ -25,13 +31,15 @@ function HomePage() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Problem />
-      <Solution />
-      <Results />
-      <Trust />
-      <About />
-      <Contact />
+      <main>
+        <Hero />
+        <Problem />
+        <Solution />
+        <Results />
+        <Trust />
+        <About />
+        <Contact />
+      </main>
       <Footer />
     </>
   );

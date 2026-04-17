@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
@@ -8,6 +9,12 @@ const pStyle = { fontSize: '14px', lineHeight: 1.7, color: '#333', marginBottom:
 const ulStyle = { fontSize: '14px', lineHeight: 1.7, color: '#333', paddingLeft: '20px', marginBottom: '8px' };
 
 function GoogleApiDisclosure() {
+  useEffect(() => {
+    document.title = 'Google API Disclosure | Good Reviews';
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute('content', "Google API Services User Data Policy compliance disclosure for Good Reviews. How we access, use and store Google Business Profile data.");
+  }, []);
+
   return (
     <>
       <Navbar />

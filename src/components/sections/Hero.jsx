@@ -7,13 +7,13 @@ function Hero() {
   return (
     <div className={styles.wrapper}>
     <section className={styles.hero}>
-      <div className={styles.text}>
+      <h1 className={styles.text}>
         {t('hero.line1')}{' '}
         <span className={styles.highlight}>{t('hero.highlight')}</span>{' '}
         {t('hero.line2')}
         <span className={styles.accent}>{t('hero.accent')}<sup className={styles.sup}>¹</sup></span>
         {t('hero.line3')}
-      </div>
+      </h1>
     </section>
     </div>
   );

@@ -58,7 +58,7 @@ function Contact() {
     <section id="contact" className={styles.wrapper}>
       <div className={styles.bottomBg}>
       <div className={styles.inner}>
-        <div className={styles.title}>{t('contact.title')}</div>
+        <h2 className={styles.title}>{t('contact.title')}</h2>
 
         <div className={styles.content}>
           <div className={styles.coordBlock}>
