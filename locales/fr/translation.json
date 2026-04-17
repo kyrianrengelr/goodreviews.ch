@@ -43,7 +43,8 @@
     "compareText": "Visualisez la performance Google de chacun de vos établissements et identifiez ceux qui ont le plus besoin de votre attention.",
     "progressTitle": "Progressez",
     "progressText1": "Avec les bonnes données, vous prenez les bonnes décisions.",
-    "progressText2": "Google vous dit où vous êtes, notre app vous dit où vous allez."
+    "progressText2": "Google vous dit où vous êtes, notre app vous dit où vous allez.",
+    "disclaimer": "Good Reviews n'a pas accès à vos données, vous restez propriétaires de ces dernières."
   },
   "results": {
     "title": "Est-ce que ça marche vraiment ?",

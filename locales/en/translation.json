@@ -43,7 +43,8 @@
     "compareText": "The Google performance of each of your locations and identify those that need the most attention.",
     "progressTitle": "Progress",
     "progressText1": "With the right data, you make the right decisions.",
-    "progressText2": "Google tells you where you are, our app tells you where you're going."
+    "progressText2": "Google tells you where you are, our app tells you where you're going.",
+    "disclaimer": "Good Reviews does not have access to your data — you remain the sole owner."
   },
   "results": {
     "title": "Does it really work?",
